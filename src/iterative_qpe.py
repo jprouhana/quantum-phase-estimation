@@ -187,3 +187,4 @@ def iterative_precision_sweep(unitary, iteration_range, shots=4096, seed=42):
         'confidences': confidences,
         'true_phase': true_phase,
     }
+# Based on Kitaev's iterative approach
